@@ -1,3 +1,13 @@
+#-------------------------------------------------------------------------------
+# Name:        volumeNormalise.py
+# Purpose:     normalises volume of video files to ebur128
+#
+# Author:      Robert Walker and Sam Nicholson
+#
+# Created:     18/04/2014
+# Licence:     GPLv3
+#-------------------------------------------------------------------------------
+
 import subprocess
 import argparse
 import re
