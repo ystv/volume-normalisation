@@ -17,7 +17,7 @@ def main():
 	"""Configure argparse and read arguments"""
     	parser = argparse.ArgumentParser(description='Automatic loudness normalisation script')
 	parser.add_argument('-l, --level', help='LUFS level to normalise at', 
-        	dest='level', action='store', required=True)
+        	dest='level', action='store', default=-23)
 	parser.add_argument('-t, --threshold', help="Don't normalise if within this many LU. Default 1", 
         	dest='threshold', action='store', default=1)
 	parser.add_argument('-c, --codec', help="Audio codec to use with ffmpeg", 
